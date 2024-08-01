@@ -6,6 +6,7 @@ import Counter from './components/Counter/Counter'
 
 import Festa from "./assets/festa.jpg";
 import './App.css'
+import { Outlet } from 'react-router-dom';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
           <Counter title="Segundos" number={second}/>
 
         </div>
+        <Outlet/>
       </div>
     </div>
   )
