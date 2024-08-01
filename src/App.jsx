@@ -9,18 +9,18 @@ import './App.css'
 
 function App() {
 
-  const x = useCountdown("Jan 1, 2025 00:00:00");
+  const [day,hour,minute,second] = useCountdown("Aug 24, 2024 09:00:00");
 
   return (
     <div className="App" style={{background: `url(${Festa})`}}>
       <div className="container">
-        <Title title="Contagem regressiva para 2025"/>
+        <Title title="Contagem regressiva para meu curso de Java fullstack começar!"/>
         <div className="countdown-container">
 
-          <Counter title="Dias" number={2}/>
-          <Counter title="Horas" number={3}/>
-          <Counter title="Minutos" number={4}/>
-          <Counter title="Segundos" number={5}/>
+          <Counter title="Dias" number={day}/>
+          <Counter title="Horas" number={hour}/>
+          <Counter title="Minutos" number={minute}/>
+          <Counter title="Segundos" number={second}/>
 
         </div>
       </div>
