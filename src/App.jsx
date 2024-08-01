@@ -1,4 +1,5 @@
 
+import useCountdown from './hooks/useCountdown';
 
 import Title from './components/Title/Title'
 import Counter from './components/Counter/Counter'
@@ -7,6 +8,8 @@ import Festa from "./assets/festa.jpg";
 import './App.css'
 
 function App() {
+
+  const x = useCountdown("Jan 1, 2025 00:00:00");
 
   return (
     <div className="App" style={{background: `url(${Festa})`}}>
