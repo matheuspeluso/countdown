@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     gap: 1rem;
+    flex-wrap: wrap;
 }
 
 .counter-number{
@@ -15,4 +16,17 @@
     font-weight: bold;
     min-width: 80px;
     text-align: center;
+}
+
+
+@media screen and (max-width: 430px){
+    .counter-number{
+        font-size: 1rem;
+        min-width: 25px;
+        padding: 0.5rem;
+    }
+
+    counter-text{
+        font-size: 18px;
+    }
 }

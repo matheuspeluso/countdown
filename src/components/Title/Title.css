@@ -3,3 +3,9 @@
     margin-bottom: 1rem;
     font-size: 2.4rem;
 }
+
+@media screen and (max-width: 430px){
+   .title{
+    font-size: 1.5rem;
+   }
+}

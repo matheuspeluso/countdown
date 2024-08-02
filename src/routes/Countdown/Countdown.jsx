@@ -7,6 +7,8 @@ import useCountdown from '../../hooks/useCountdown';
 import {CountdownContext} from "../../context/CountdownContext";
 import { useContext } from "react";
 
+import "./Countdown.css";
+
 
 
 const Countdown = () => {
