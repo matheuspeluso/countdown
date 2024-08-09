@@ -1,10 +1,9 @@
 <h1 align="center">
-    <img src="./imgs/COUNT.png" width="600px" height= "250px>
+    <img src="./imgs/COUNT.png" width="400px"/>
     <br>
 </h1>
 
-##
-📚Sobre
+## 📚Sobre
 
 **Countdown** trata-se de um contador regressivo desenvolvido em ReactJS. No projeto, foram utilizadas as tecnologias Context API, custom hooks e React Router DOM para gerenciar o estado e as rotas da aplicação.
 
